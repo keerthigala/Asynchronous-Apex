@@ -10,8 +10,8 @@ public class Calculator {
     private static void addition(integer x, integer y)
     {
         System.debug('Addition :' + (x+y));
-        for(integer i=1;i<=5000;i++){
-            if(i==4900) {
+        for(integer i=1;i<=50000;i++){
+            if(i==49000) {
                 System.debug('I am in 49th iteration');
             }
         }
